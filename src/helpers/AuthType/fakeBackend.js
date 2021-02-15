@@ -42,7 +42,7 @@ const fakeBackend = () => {
   mock.onPost('/fake-forget-pwd').reply(function (config) {
    // User needs to check that user is eXist or not and send mail for Reset New password
 
-   return new Promise(function (resolve, reject) {
+  return new Promise(function (resolve, reject) {
     setTimeout(function () {
         resolve([200, "Check you mail and reset your password."]);
     });
@@ -190,20 +190,29 @@ mock.onPost('/post-fake-profile').reply(function (config) {
           {
               "userID": 1,
               "userName": "Admin",
+              "userAddress" : "Komplek API",
               "userEmail": "admin@goodproject.com",
-              "userRole": "admin"
+              "userRole": "admin",
+              "userPhone": "081999121212",
+              "userPIC": "PT.Textil"
           },
           {
               "userID": 2,
               "userName": "Operator",
+              "userAddress" : "Komplek API",
               "userEmail": "operator@goodproject.com",
-              "userRole": "operator"
+              "userRole": "operator",
+              "userPhone": "081999121212",
+              "userPIC": "PT.Textil"
           },
           {
               "userID": 3,
               "userName": "Operator",
+              "userAddress" : "Komplek API",
               "userEmail": "operator@goodproject.com",
-              "userRole": "operator"
+              "userRole": "operator",
+              "userPhone": "081999121212",
+              "userPIC": "PT.Textil"
           }
       ]
 
@@ -279,14 +288,18 @@ mock.onPost('/post-fake-profile').reply(function (config) {
             {
                 "userID": 1,
                 "userName": "Admin",
+                "userAddress" : "Komplek API",
                 "userEmail": "admin@goodproject.com",
-                "userRole": "admin"
+                "userRole": "admin",
+                "userPhone": "081999121212"
             },
             {
                 "userID": 2,
                 "userName": "Operator",
+                "userAddress" : "Komplek API",
                 "userEmail": "operator@goodproject.com",
-                "userRole": "operator"
+                "userRole": "operator",
+                "userPhone": "081999121212"
             }
         ]
 

@@ -146,6 +146,15 @@ import DataUser from "../pages/Users/index";
 import Edit from "../pages/Users/Edit";
 import Add from "../pages/Users/Add";
 
+// Data Employee
+import DataEmployee from "../pages/Employee/index";
+import EmployeeEdit from "../pages/Employee/Edit";
+import EmployeeAdd from "../pages/Employee/Add";
+
+// Data Supplier
+import DataSupplier from "../pages/Supplier/index";
+import SupplierEdit from "../pages/Supplier/Edit";
+import SupplierAdd from "../pages/Supplier/Add";
 
 const authProtectedRoutes = [
 
@@ -158,6 +167,16 @@ const authProtectedRoutes = [
 	{ path: "/data-users", component: DataUser },
 	{ path: "/data-users-edit", component: Edit },
 	{ path: "/data-users-add", component: Add },
+
+	// data pegawai / data employee
+	{ path: "/data-employee", component: DataEmployee },
+	{ path: "/data-employee-edit", component: EmployeeEdit },
+	{ path: "/data-employee-add", component: EmployeeAdd },
+
+	// data supplier
+	{ path: "/data-supplier", component: DataSupplier },
+	{ path: "/data-supplier-edit", component: SupplierEdit },
+	{ path: "/data-supplier-add", component: SupplierAdd },
 
 
 	//Crypto
