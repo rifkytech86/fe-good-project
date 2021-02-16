@@ -14,7 +14,7 @@ class ActivityComp extends Component {
                 <Card>
                     <CardBody>
                         <CardTitle className="mb-5">
-                            Activity
+                            Sales Order Terbaru
                         </CardTitle>
                         <ul className="verti-timeline list-unstyled">
                             <li className="event-list">
@@ -27,7 +27,7 @@ class ActivityComp extends Component {
                                     </div>
                                     <Media body>
                                         <div>
-                                            Responded to need “Volunteer Activities
+                                            Rani Dari Banjaran Status SO
                                         </div>
                                     </Media>
                                 </Media>
@@ -43,7 +43,7 @@ class ActivityComp extends Component {
                                     </div>
                                     <Media body>
                                         <div id="activitytext">
-                                            Everyone realizes why a new common language would be desirable...<Link to="#">Read More</Link>
+                                            Ganjar Dari Buah Batu Status SO
                                         </div>
                                     </Media>
                                 </Media>
@@ -58,7 +58,7 @@ class ActivityComp extends Component {
                                     </div>
                                     <Media body>
                                         <div>
-                                            Joined the group “Boardsmanship Forum”
+                                            Ganjar Dari Buah Batu Status SO Dengan Order lebih dari 100
                                         </div>
                                     </Media>
                                 </Media>
@@ -73,7 +73,7 @@ class ActivityComp extends Component {
                                     </div>
                                     <Media body>
                                         <div>
-                                            Responded to need “In-Kind Opportunity”
+                                            Ghani Dari Buah Batu Status SO
                                         </div>
                                     </Media>
                                 </Media>

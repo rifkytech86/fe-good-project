@@ -82,9 +82,9 @@ class SidebarContent extends Component {
                                     <span>{this.props.t('Dashboards') }</span>
                                 </Link>
                                 <ul className="sub-menu" aria-expanded="false">
-                                    <li><Link to="/dashboard">{this.props.t('Default') }</Link></li>
-                                    <li><Link to="/dashboard-saas">{this.props.t('Saas') }</Link></li>
-                                    <li><Link to="/dashboard-crypto">{this.props.t('Crypto') }</Link></li>
+                                    <li><Link to="/dashboard">{this.props.t('Dashboard') }</Link></li>
+                                    {/*<li><Link to="/dashboard-saas">{this.props.t('Saas') }</Link></li>*/}
+                                    {/*<li><Link to="/dashboard-crypto">{this.props.t('Crypto') }</Link></li>*/}
                                 </ul>
                      </li>
 

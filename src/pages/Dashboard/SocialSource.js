@@ -20,7 +20,7 @@ class SocialSource extends Component {
                 <Card>
                     <CardBody>
                         <CardTitle className="mb-4">
-                            Social Source
+                            Order Paling Sering Order Via Social Media
                         </CardTitle>
                         <div className="text-center mb-4">
                             <div className="avatar-sm mx-auto mb-4">
@@ -30,8 +30,8 @@ class SocialSource extends Component {
                             </div>
                             <p className="font-16 text-muted mb-2"></p>
                             <h5><Link to="#" className="text-dark">Facebook - <span className="text-muted font-16">125 sales</span> </Link></h5>
-                            <p className="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus tincidunt.</p>
-                            <Link to="#" className="text-primary font-16">Learn more <i className="mdi mdi-chevron-right"></i></Link>
+                            <p className="text-muted">Iklan Paling berpengaruh</p>
+                            <Link to="#" className="text-primary font-16">Detail<i className="mdi mdi-chevron-right"></i></Link>
                         </div>
                         <Row className="mb-1">
                             {

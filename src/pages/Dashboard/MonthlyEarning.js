@@ -16,13 +16,13 @@ class MonthlyEarning extends Component {
             <React.Fragment> <Card>
                 <CardBody>
                     <CardTitle className="mb-4">
-                        Monthly Earning
+                        Target Order perbulan
                     </CardTitle>
                     <Row>
                         <Col sm="6">
-                            <p className="text-muted">This month</p>
-                            <h3>$34,252</h3>
-                            <p className="text-muted"><span className="text-success mr-2"> 12% <i className="mdi mdi-arrow-up"></i> </span> From previous period</p>
+                            <p className="text-muted">Februari</p>
+                            <h3>Rp.34,252 Juta</h3>
+                            <p className="text-muted"><span className="text-success mr-2"> -12% <i className="mdi mdi-arrow-up"></i> </span> Kurang Dari Target</p>
                             <div className="mt-4">
                                 <Link to="" className="btn btn-primary waves-effect waves-light btn-sm">View More <i className="mdi mdi-arrow-right ml-1"></i></Link>
                             </div>
@@ -33,7 +33,7 @@ class MonthlyEarning extends Component {
                             </div>
                         </Col>
                     </Row>
-                    <p className="text-muted mt-4 mb-3">We craft digital, graphic and dimensional thinking.</p>
+                    <p className="text-muted mt-4 mb-3">Kejar target bulan ini.</p>
                 </CardBody>
             </Card>
             </React.Fragment>

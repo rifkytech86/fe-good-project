@@ -14,14 +14,14 @@ class TopCities extends Component {
                 <Card>
                     <CardBody>
                         <CardTitle className="mb-4">
-                            Top Cities Selling Product
+                            Top Jenis Paling Laku
                         </CardTitle>
                         <div className="text-center">
                             <div className="mb-4">
                                 <i className="bx bx-map-pin text-primary display-4"></i>
                             </div>
-                            <h3>1,456</h3>
-                            <p>San Francisco</p>
+                            <h3>1,456 items/pcs</h3>
+                            <p>Total Order</p>
                         </div>
 
                         <div className="table-responsive mt-4">
@@ -29,7 +29,7 @@ class TopCities extends Component {
                                 <tbody>
                                     <tr>
                                         <td style={{ width: "30%" }} >
-                                            <p className="mb-0">San Francisco</p>
+                                            <p className="mb-0">Kaos</p>
                                         </td>
                                         <td style={{ width: "25%" }} >
                                             <h5 className="mb-0">1,456</h5></td>
@@ -39,10 +39,10 @@ class TopCities extends Component {
                                     </tr>
                                     <tr>
                                         <td>
-                                            <p className="mb-0">Los Angeles</p>
+                                            <p className="mb-0">Kemeja</p>
                                         </td>
                                         <td>
-                                            <h5 className="mb-0">1,123</h5>
+                                            <h5 className="mb-0">1,123 </h5>
                                         </td>
                                         <td>
                                             <Progress value="82" color="success" className="bg-transparent" size="sm" />
@@ -50,7 +50,7 @@ class TopCities extends Component {
                                     </tr>
                                     <tr>
                                         <td>
-                                            <p className="mb-0">San Diego</p>
+                                            <p className="mb-0">Jaket</p>
                                         </td>
                                         <td>
                                             <h5 className="mb-0">1,026</h5>

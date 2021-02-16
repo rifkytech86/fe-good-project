@@ -190,7 +190,7 @@ mock.onPost('/post-fake-profile').reply(function (config) {
           {
               "userID": 1,
               "userName": "Admin",
-              "userAddress" : "Komplek API",
+              "userAddress" : "Jalan Pelita 1",
               "userEmail": "admin@goodproject.com",
               "userRole": "admin",
               "userPhone": "081999121212",
@@ -199,7 +199,7 @@ mock.onPost('/post-fake-profile').reply(function (config) {
           {
               "userID": 2,
               "userName": "Operator",
-              "userAddress" : "Komplek API",
+              "userAddress" : "Jalan Pelita 2",
               "userEmail": "operator@goodproject.com",
               "userRole": "operator",
               "userPhone": "081999121212",
@@ -208,7 +208,7 @@ mock.onPost('/post-fake-profile').reply(function (config) {
           {
               "userID": 3,
               "userName": "Operator",
-              "userAddress" : "Komplek API",
+              "userAddress" : "Jalan Pelita 3",
               "userEmail": "operator@goodproject.com",
               "userRole": "operator",
               "userPhone": "081999121212",
